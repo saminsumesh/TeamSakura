@@ -96,8 +96,7 @@ This module only works for my admins
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Group Link = (http://t.me/{chat.username})
+Group = {}(<code>{}</code>
 Total Members = <code>{}</code>
 Added By - {}
 """
