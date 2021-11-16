@@ -404,11 +404,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɪᴍʙᴅ', callback_data='imbd'),
             InlineKeyboardButton('Auto Filter', callback_data='autofilter')
             ],[
+            InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
-            ],[
-            InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
+            ],[          
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔮 Status', callback_data='stats')
         ]]
