@@ -17,7 +17,7 @@ class script(object):
 - <a href=https://t.me/Sakurabotupdates>𝚂𝙰𝙺𝚄𝚁𝙰</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- ❀ 𝙸𝚏 𝚈𝚘𝚞 𝙳𝚘𝚗'𝚝 𝚆𝚊𝚗𝚝 𝚃𝚠𝚘 𝙱𝚘𝚝 𝚄𝚜𝚎 𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛 𝙵𝚘𝚛 𝙵𝚒𝚕𝚝𝚎𝚛𝚒𝚗𝚐 𝚆𝚎𝚋𝚜𝚎𝚛𝚒𝚎𝚜
+-  𝙸𝚏 𝚈𝚘𝚞 𝙳𝚘𝚗'𝚝 𝚆𝚊𝚗𝚝 𝚃𝚠𝚘 𝙱𝚘𝚝 𝚄𝚜𝚎 𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛 𝙵𝚘𝚛 𝙵𝚒𝚕𝚝𝚎𝚛𝚒𝚗𝚐 𝚆𝚎𝚋𝚜𝚎𝚛𝚒𝚎𝚜
 
 <b>NOTE:</b>
 1. 𝚂𝚊𝚔𝚞𝚛𝚊 𝚂𝚑𝚘𝚞𝚕𝚍 𝙽𝚎𝚎𝚍 𝙰𝚍𝚖𝚒𝚗 𝙿𝚛𝚒𝚟𝚒𝚕𝚊𝚐𝚎 𝚃𝚘 𝚆𝚘𝚛𝚔 
@@ -63,7 +63,18 @@ class script(object):
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
-    PIN_TEXT = """Help: <b>
+    PIN_TXT = """Help: <b> 📌 Pin :- </b>
+
+All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!
+
+📚 Admin Commands:
+
+◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members
+
+◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message 
+
+Made By @SakuraBotUpdates
+"""
 
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
