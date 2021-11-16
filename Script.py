@@ -104,6 +104,7 @@ USAGE:
 • Sakura should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member.
+"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
