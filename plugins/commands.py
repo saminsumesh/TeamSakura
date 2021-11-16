@@ -17,10 +17,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 UPDATES', url='https://t.me/SakurabotUpdates')
+                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/SakurabotUpdates')
             ],
             [
-                InlineKeyboardButton('ℹ️ HELP', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -35,13 +35,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/Sakurafilterbot?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/Sakurafilterbot?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Sakurabotupdates')
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Sakurabotupdates')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -62,13 +62,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "✅ 𝘑𝘖𝘐𝘕", url=invite_link.invite_link
+                    "ᴊᴏɪɴ", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 𝘛𝘙𝘠 𝘈𝘎𝘈𝘐𝘕", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("ʀᴇғʀᴇsʜ", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Join Our Movies Group**",
@@ -143,7 +143,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Processing...⏳", quote=True)
+        msg = await message.reply("ᴘʀᴏᴄᴇssɪɴɢ", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
