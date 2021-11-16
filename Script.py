@@ -72,7 +72,7 @@ CODES:
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
     FILTER_TXT ="""𝚂𝙴𝙻𝙴𝙲𝚃 𝙰 𝙵𝙸𝙻𝚃𝙴𝚁 𝚃𝚈𝙿𝙴 𝙱𝙴𝙻𝙾𝚆:"""
-    PIN_TXT = """<b> 📌 Pin :- </b>
+    PIN_TXT = """<b> Pin :- </b>
 
 All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!
 
@@ -84,7 +84,18 @@ All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The
 
 Made By @SakuraBotUpdates ❤️
 """
+    INFO_TXT ="""<b>Info</b>
 
+Get information about something!
+
+USAGE:
+➥ /id - get the id of a specifed user
+➥ /info - get the information about a user
+
+<b>NOTE:</b>
+• Sakura should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member.
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
