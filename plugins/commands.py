@@ -12,8 +12,24 @@ from utils import get_size, is_subscribed, temp
 
 logger = logging.getLogger(__name__)
 
-@Client.on_message(filters.private & filters.command("start"))
+@Client.on_message(filters.command("start"))
 async def start(client, message):
+    if message.chat.type in ['group', 'supergroup']:
+        buttons = [
+            [
+                InlineKeyboardButton('🤖 UPDATES', url='https://t.me/SakurabotUpdates')
+            ],
+            [
+                InlineKeyboardButton('ℹ️ HELP', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            ]
+            ]
+        reply_markup = InlineKeyboardMarkup(buttons)
+
+        if not await db.get_chat(message.chat.id):
+            total=await client.get_chat_members_count(message.chat.id)
+            await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Unknown"))       
+            await db.add_chat(message.chat.id, message.chat.title)
+        return await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
@@ -46,16 +62,16 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "✅ 𝘑𝘖𝘐𝘕", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton(" 🔄 𝘛𝘙𝘠 𝘈𝘎𝘈𝘐𝘕", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Join Our Movies Group**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
