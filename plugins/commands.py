@@ -195,7 +195,7 @@ async def delete_all_index_confirm(bot, message):
     await message.answer()
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
-@Client.on_message(filters.command('pin') & filters.user(ADMINS))
+@Client.on_message(filters.command('pin') & filters.group))
 async def pin(bot, message):
     if message.from_user.id == ADMIN: 
                if message.reply_to_message:
