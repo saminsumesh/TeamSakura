@@ -84,6 +84,14 @@ All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The
 
 Made By @SakuraBotUpdates ❤️
 """
+    IMBD_TXT ="""<b>Search</b>
+
+Search anything without leaving telegram!
+
+USAGE:
+➥ /imdb - get the film information from IMDb source
+➥ /search - get the film information from various sources
+"""
     INFO_TXT ="""<b>Info</b>
 
 Get information about something!
