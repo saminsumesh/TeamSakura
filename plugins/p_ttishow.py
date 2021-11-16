@@ -261,3 +261,12 @@ async def list_chats(bot, message):
         with open('chats.txt', 'w+') as outfile:
             outfile.write(out)
         await message.reply_document('chats.txt', caption="List Of Chats")
+
+@Client.on_message(filters.command('pin') & filters.private)
+async def pin(bot, message):
+    if message.from_user.id == ADMIN: 
+               if message.reply_to_message:
+                                    chatid=int(message.text.replace("/pin"," "))
+                                    p=await bot.copy_message(chat_id=chatid, from_chat_id=ADMIN, message_id=message.reply_to_message.message_id)
+                                    await p.pin()
+                                    await message.reply_text("<b>✅ Message Successfully Send to the Group And pinned</b>")             
