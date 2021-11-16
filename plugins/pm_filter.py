@@ -401,14 +401,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ғɪʟᴛᴇʀ', callback_data='hud'),
-            InlineKeyboardButton('ɪᴍʙᴅ', callback_data='pin'),
+            InlineKeyboardButton('ɪᴍʙᴅ', callback_data='imbd'),
             InlineKeyboardButton('Auto Filter', callback_data='autofilter')
             ],[
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
             ],[
-            InlineKeyboardButton('ɪɴғᴏ', callback_data='autofilter'),
+            InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔮 Status', callback_data='stats')
         ]]
@@ -429,6 +429,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "info":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.INFO_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "imbd":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.IMBD_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
