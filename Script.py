@@ -71,7 +71,7 @@ CODES:
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
-    FILTER_TXT =""" """
+    FILTER_TXT ="""𝚂𝙴𝙻𝙴𝙲𝚃 𝙰 𝙵𝙸𝙻𝚃𝙴𝚁 𝚃𝚈𝙿𝙴 𝙱𝙴𝙻𝙾𝚆:"""
     PIN_TXT = """<b> 📌 Pin :- </b>
 
 All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!
