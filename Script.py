@@ -10,7 +10,7 @@ class script(object):
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝚀𝙾𝚅𝙴𝚁𝚈
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙸𝙽𝚃𝙸𝙰𝚃𝙸𝚅𝙴 ]"""
-    SOURCE_TXT = """<b>NOTE:</b>
+    SOURCE_TXT = """About: <b>NOTE:</b>
 - 𝚂𝙾𝚁𝚁𝚈 𝙳𝙴𝙰𝚁 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙸𝚂 𝙽𝙾𝚃 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴, 𝙸𝙽𝚂𝚃𝙴𝙰𝙳 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙴𝚅𝙰 𝙼𝙰𝚁𝙸𝚈𝙰 𝚁𝙴𝙿𝙾 😍  
 
 <b>DEVS:</b>
@@ -63,6 +63,8 @@ class script(object):
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
+    PIN_TEXT = """Help: <b>
+
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
