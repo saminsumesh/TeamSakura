@@ -195,15 +195,27 @@ async def delete_all_index_confirm(bot, message):
     await message.answer()
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
-@Client.on_message(filters.command('pin') & (filters.group | filters.user(ADMINS))
-async def pin(bot, message):
-    if message.from_user.id == ADMIN: 
-               if message.reply_to_message:
-                                    chatid=int(message.text.replace("/pin"," "))
-                                    p=await bot.copy_message(chat_id=chatid, from_chat_id=ADMIN, message_id=message.reply_to_message.message_id)
-                                    await p.pin()
-                                    await message.reply_text("<b>✅ Message Has Been Pinned Successfully</b>")
-               else:
-                    await message.reply_text("<b>Use this command as the reply of any Message to Send in Group</b>")                         
-    else:
-         await message.reply_text("<b>That's not for you bruh 😅</b>")
+@Client.on_message(filters.command('pin') 
+async def pin(update: Update, context: CallbackContext) -> str:
+    bot = context.bot
+    args = context.args
+
+    user = update.effective_user
+    chat = update.effective_chat
+
+    is_group = chat.type != "private" and chat.type != "channel"
+    prev_message = update.effective_message.reply_to_message
+
+    if user_can_pin(chat, user, context.bot.id) is False:
+        message.reply_text("You are missing rights to pin a message!")
+        return ""
+
+    if prev_message and is_group:
+        try:
+            bot.pinChatMessage(
+                chat.id, prev_message.message_id, disable_notification=is_silent
+            )
+        except BadRequest as excp:
+            if excp.message == "Chat_not_modified":
+                pass
+            
