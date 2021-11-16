@@ -67,11 +67,11 @@ class script(object):
 
 All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!
 
-📚 Admin Commands:
+<b>📚 Admin Commands:</b>
 
 ◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members
 
-◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message 
+◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message
 
 Made By @SakuraBotUpdates
 """
