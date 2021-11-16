@@ -10,19 +10,16 @@ class script(object):
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://MongoDB.com'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://qovery.com'>𝚀𝙾𝚅𝙴𝚁𝚈</a>
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [BETA]"""
-    SOURCE_TXT = """About: <b>NOTE:</b>
-- NOTE:
+    SOURCE_TXT = """<b>NOTE:</b>
 - Sakura is a closed source project.   
 
-DEVS:
+<b>DEVS:</b>
 - <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛</a>
 
 CODES:
 1. Auto Filter
 2. Group Managing  
-
-<b>DEVS:</b>
-- <a href=https://t.me/Sakurabotupdates>𝚂𝙰𝙺𝚄𝚁𝙰</a>"""
+"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 -  𝙸𝚏 𝚈𝚘𝚞 𝙳𝚘𝚗'𝚝 𝚆𝚊𝚗𝚝 𝚃𝚠𝚘 𝙱𝚘𝚝 𝚄𝚜𝚎 𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛 𝙵𝚘𝚛 𝙵𝚒𝚕𝚝𝚎𝚛𝚒𝚗𝚐 𝚆𝚎𝚋𝚜𝚎𝚛𝚒𝚎𝚜
@@ -51,14 +48,14 @@ CODES:
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """<b>Auto Filter</b>
 
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
 2. make sure that your channel does not contains cam rip, porn and fake files.
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db."""
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """<b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
@@ -105,7 +102,7 @@ USAGE:
 • These commands works on both pm and group.
 • These commands can be used by any group member.
 """
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+    EXTRAMOD_TXT = """<b>Extra Modules</b>
 
 <b>NOTE:</b>
 these are the extra features of tessa
