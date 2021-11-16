@@ -1,17 +1,25 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/Sakurafilterbot'>𝚂𝙰𝙺𝚄𝚁𝙰</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈,𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝚃𝙷𝙴 𝚂𝚃𝙾𝚁𝚈 𝙻𝙸𝙽𝙴 𝙰𝚂𝙻𝙾 😉"""
+    START_TXT = """𝖧𝖾𝗅𝗅𝗈 {},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/Sakurafilterbot'>𝖲𝖺𝗄𝗎𝗋𝖺</a>,𝖸𝗈𝗎 𝖢𝖺𝗇 𝖴𝗌𝖾 𝖬𝖾 𝖨𝗇 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉𝗌 𝖠𝗅𝗌𝗈 , 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗇𝖽 𝖬𝖺𝗄𝖾 𝖬𝖾 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇📍"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝚂𝙰𝙺𝚄𝚁𝙰
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: 𝚂𝙰𝙺𝚄𝚁𝙰
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛 🇱🇷</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝚀𝙾𝚅𝙴𝚁𝚈
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙸𝙽𝚃𝙸𝙰𝚃𝙸𝚅𝙴 ]"""
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://MongoDB.com'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://qovery.com'>𝚀𝙾𝚅𝙴𝚁𝚈</a>
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [BETA]"""
     SOURCE_TXT = """About: <b>NOTE:</b>
-- 𝚂𝙾𝚁𝚁𝚈 𝙳𝙴𝙰𝚁 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙸𝚂 𝙽𝙾𝚃 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴, 𝙸𝙽𝚂𝚃𝙴𝙰𝙳 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙴𝚅𝙰 𝙼𝙰𝚁𝙸𝚈𝙰 𝚁𝙴𝙿𝙾 😍  
+- NOTE:
+- Sakura is a closed source project.   
+
+DEVS:
+- <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛</a>
+
+CODES:
+1. Auto Filter
+2. Group Managing  
 
 <b>DEVS:</b>
 - <a href=https://t.me/Sakurabotupdates>𝚂𝙰𝙺𝚄𝚁𝙰</a>"""
