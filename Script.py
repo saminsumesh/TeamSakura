@@ -1,8 +1,8 @@
 class script(object):
     START_TXT = """𝖧𝖾𝗅𝗅𝗈 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/Sakurafilterbot'>𝖲𝖺𝗄𝗎𝗋𝖺</a>,𝖸𝗈𝗎 𝖢𝖺𝗇 𝖴𝗌𝖾 𝖬𝖾 𝖨𝗇 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉𝗌 𝖠𝗅𝗌𝗈 , 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗇𝖽 𝖬𝖺𝗄𝖾 𝖬𝖾 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇📍"""
+𝖬𝗒 𝖭𝖺𝗆𝖾 𝖨𝗌 <a href='https://t.me/Sakurafilterbot'>𝖲𝖺𝗄𝗎𝗋𝖺</a>,𝖸𝗈𝗎 𝖢𝖺𝗇 𝖴𝗌𝖾 𝖬𝖾 𝖨𝗇 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉𝗌 𝖠𝗅𝗌𝗈 , 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗇𝖽 𝖬𝖺𝗄𝖾 𝖬𝖾 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇📍"""
     HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝚂𝙰𝙺𝚄𝚁𝙰
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛 🇱🇷</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
@@ -71,7 +71,7 @@ CODES:
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
-    PIN_TXT = """Help: <b> 📌 Pin :- </b>
+    PIN_TXT = """<b> 📌 Pin :- </b>
 
 All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!
 
@@ -81,7 +81,7 @@ All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The
 
 ◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message
 
-Made By @SakuraBotUpdates
+Made By @SakuraBotUpdates ❤️
 """
 
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
