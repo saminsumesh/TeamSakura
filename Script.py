@@ -27,6 +27,8 @@ CODES:
     <b>ADMIN</b> 
     
     ◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message
+
+Made By @SakuraBotUpdates ❤️
     """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
