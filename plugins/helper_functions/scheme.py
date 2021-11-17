@@ -11,6 +11,7 @@ from info import (
     LAYER_UPDATE_MESSAGE_CAPTION
 )
 
+LAYER_FEED_CHAT = os.environ.get("LAYER_FEED_CHAT", True)
 
 async def fetch(scheme_url: str):
     async with aiofiles.ClientSession() as session:
