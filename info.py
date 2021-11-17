@@ -45,6 +45,3 @@ IMDB = bool((environ.get('IMDB', True)))
 SINGLE_BUTTON = bool((environ.get('SINGLE_BUTTON', False)))
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
 LONG_IMDB_DESCRIPTION = bool(environ.get("LONG_IMDB_DESCRIPTION", True))
-
-# sudi
-SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", None")
