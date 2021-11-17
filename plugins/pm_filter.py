@@ -408,10 +408,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ғᴜɴ', callback_data='fun'),
             InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='mute')
             ],[
-            InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
+            InlineKeyboardButton('ʙᴀɴ', callback_data='ban'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
             InlineKeyboardButton('ᴘɪɴ', callback_data='pin')
             ],[
+            InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
             ],[          
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
@@ -454,6 +455,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.FUN_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "ban":
+        buttons = [[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.BAN_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
