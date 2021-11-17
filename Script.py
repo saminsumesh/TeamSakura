@@ -15,9 +15,8 @@ class script(object):
 
 <b>DEVS:</b>
 - <a href='https://t.me/PaulWalker_TG'>PaulWalker</a>
-- <a href='https://t.me/MuFazTG'>MuFazTG</a>
-- <a href='https://t.me/Jinn_Sulthan'>JINN</a>
-- <a href='https://t.me/MyFreak123'>BLINDER TG</a>
+- <a href='https://t.me/TGPero/13'>Hands Behind This</a>
+
 CODES:
 1. Auto Filter
 2. Group Managing  
