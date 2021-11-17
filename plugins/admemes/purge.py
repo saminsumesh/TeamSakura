@@ -12,9 +12,7 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 
 @Client.on_message(
-    filters.command("purge", COMMAND_HAND_LER) &
-    f_onw_fliter
-)
+    filters.command("purge") & f_onw_fliter)
 async def purge(client, message):
     """ purge upto the replied message """
     if message.chat.type not in (("supergroup", "channel")):
@@ -37,7 +35,7 @@ async def purge(client, message):
             message.message_id
         ):
             message_ids.append(a_s_message_id)
-            if len(message_ids) == TG_MAX_SELECT_LEN:
+            if len(message_ids) == 4123:
                 await client.delete_messages(
                     chat_id=message.chat.id,
                     message_ids=message_ids,
