@@ -1,10 +1,10 @@
 from pyrogram import (
     filters
 )
-from info import ADMINS, is_enabled
+from info import ADMINS,
 from plugins.helper_functions.admin_check import admin_check
 
-USE_AS_BOT = is_enabled(environ.get("USE_AS_BOT", "True"), True)
+USE_AS_BOT = bool(environ.get("USE_AS_BOT", True))
 
 def f_sudo_filter(filt, client, message):
     return bool(
