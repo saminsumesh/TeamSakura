@@ -405,7 +405,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge')
             ],[
             InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
-            InlineKeyboardButton('ғᴜɴ', callback_data='fun')
+            InlineKeyboardButton('ғᴜɴ', callback_data='fun'),
+            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='mute')
             ],[
             InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
@@ -433,6 +434,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "mute":
+        buttons = [[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.MUTE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
