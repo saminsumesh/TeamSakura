@@ -11,11 +11,11 @@ from pyrogram.types import (
 )
 from info import (
     COMMAND_HAND_LER,
-    DB_URI
+    DATABASE_URI
 )
 from plugins.helper_functions.admin_check import admin_check
 from plugins.helper_functions.cust_p_filters import f_onw_fliter
-if DB_URI is not None:
+if DATABASE_URI is not None:
     import plugins.helper_functions.sql_helpers.antiflood_sql as sql
     CHAT_FLOOD = sql.__load_flood_settings()
 
