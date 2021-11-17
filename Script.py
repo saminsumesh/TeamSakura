@@ -95,12 +95,11 @@ Do as you wish with telegra.ph module!
 
 <b>USAGE:</b>
 
-🤧 /telegraph - upload supported media (within 5MB) to telegraph
+🤧 send me the file which should be created as telegraph link (5MB)
 
 NOTE:
 • Sakura should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member.
+• This Command Is Automated So Just Sent The Photo
 """
     IMBD_TXT ="""<b>Search</b>
 
