@@ -1,7 +1,7 @@
 from pyrogram import (
     filters
 )
-from info import ADMINS
+from info import ADMINS, AUTH_USER
 from plugins.helper_functions.admin_check import admin_check
 import os
 
@@ -9,7 +9,7 @@ USE_AS_BOT = os.environ.get("USE_AS_BOT", True)
 
 def f_sudo_filter(filt, client, message):
     return bool(
-        message.from_user.id in SUDO_USERS
+        message.from_user.id in AUTH_USER
     )
 
 
