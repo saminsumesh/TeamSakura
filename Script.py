@@ -20,6 +20,16 @@ CODES:
 1. Auto Filter
 2. Group Managing  
 """
+    FUN_TXT ="""<b>FUN MODULE</b> 
+    
+<b>🎲 NOTHING MUCH JUST SOME FUN THINGS</b>
+t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍: 
+𝟣. /dice - Roll The Dice 
+𝟤. /Throw 𝗈𝗋 /Drat - 𝖳𝗈 𝖬𝖺𝗄𝖾 Drat 
+3. /Runs - Jokes In Malayalam
+
+Made By @SakuraBotUpdates ❤️
+"""
     PURGE_TXT ="""<b>Purge</b>
     
     Delete A Lot Of Messages From Groups! 
