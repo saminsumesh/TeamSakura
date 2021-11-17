@@ -13,34 +13,6 @@ from telegraph import upload_file
 
 logger = logging.getLogger(__name__)
 
-@Client.on_message(filters.photo)
-async def getimage(client, message):
-    dwn = await message.reply_text("Generating Your Telegraph Link📸...", True)
-    img_path = await message.download()
-    await dwn.edit_text("Uploading your telegraph link📸...")
-    try:
-        url_path = upload_file(img_path)[0]
-    except Exception as error:
-        await dwn.edit_text(f"Oops something went wrong🤧\n{error}")
-        return
-    await dwn.edit_text(
-        text=f"<b>Link :-</b> <code>https://telegra.ph{url_path}</code>",
-        disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        text="Open Link", url=f"https://telegra.ph{url_path}"
-                    ),
-                    InlineKeyboardButton(
-                        text="Share Link",
-                        url=f"https://telegram.me/share/url?url=https://telegra.ph{url_path}",
-                    )
-                ]
-            ]
-        )
-    )
-
 @Client.on_message(filters.command("start"))
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
