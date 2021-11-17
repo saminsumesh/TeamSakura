@@ -53,6 +53,19 @@ Helps you to know your ping 🚶🏼‍♂️
 
 Made by @SakuraBotUpdates ❤️
 """
+    JSON_TXT = """<b>JSON:</b>
+Bot returns json for all replied messages with /json
+
+<b>Features:</b>
+Message Editting JSON
+Pm Support
+Group Support
+
+<b>Note:</b>
+Everyone can use this command , if spaming happens bot will automatically ban you from the group
+
+Made By @SakuraBotUpdates ❤️
+"""
     FUN_TXT ="""<b>FUN MODULE</b> 
     
 <b>🎲 NOTHING MUCH JUST SOME FUN THINGS</b>
