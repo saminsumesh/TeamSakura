@@ -1,7 +1,7 @@
 from pyrogram import (
     filters
 )
-from info import ADMINS
+from info import ADMINS, is_enabled
 from plugins.helper_functions.admin_check import admin_check
 
 USE_AS_BOT = is_enabled(environ.get("USE_AS_BOT", "True"), True)
