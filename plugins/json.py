@@ -3,7 +3,7 @@ Syntax: .json"""
 
 import os
 from pyrogram import Client, filters
-from pyrobot import COMMAND_HAND_LER
+from plugins import COMMAND_HAND_LER
 from pyrobot.helper_functions.cust_p_filters import sudo_filter
 
 
