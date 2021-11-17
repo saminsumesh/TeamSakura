@@ -9,7 +9,7 @@ from info import (
 from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
-ALIVE = "Not Dead"
+ALIVE = "Glad to hear that and really nice to know that I am not talking to a ghost."
 HELP = "CAACAgUAAxkBAAEBTsthlWY_Pte1RC4yhz3nD1utGagSSwAC0gIAAsaPcVUSPJS_m8rS5h4E"
 # -- Constants End -- #
 
