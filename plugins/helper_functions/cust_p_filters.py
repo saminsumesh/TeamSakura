@@ -5,7 +5,7 @@
 from pyrogram import (
     filters
 )
-from info import (
+from sudo import (
     SUDO_USERS,
     USE_AS_BOT
 )
