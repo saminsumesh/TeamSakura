@@ -11,7 +11,7 @@ from pyrogram import (
 )
 from pyrogram.errors import MessageNotModified
 from pyrogram.raw.all import layer
-from bot import (
+from info import (
     APP_ID,
     API_HASH,
     LAYER_UPDATE_INTERVAL,
