@@ -1,7 +1,6 @@
 import os
 import shutil
 from pyrogram import Client, filters
-from telegraph import upload_file
 from download import TMP_DOWNLOAD_DIRECTORY
 from plugins.helper_functions.cust_p_filters import sudo_filter
 from plugins.helper_functions.get_file_id import get_file_id
