@@ -7,7 +7,7 @@ from info import COMMAND_HAND_LER
 from plugins.helper_functions.cust_p_filters import sudo_filter
 
 
-@Client.on_message(filters.command("json", COMMAND_HAND_LER)
+@Client.on_message(filters.command("json", COMMAND_HAND_LER))
 async def jsonify(_, message):
     the_real_message = None
     reply_to_id = None
