@@ -5,11 +5,6 @@ import aiofiles
 import os
 from io import BytesIO
 from pyrogram import Client, filters
-from info import (
-    LAYER_FEED_CHAT,
-    LAYER_UPDATE_INTERVAL,
-    LAYER_UPDATE_MESSAGE_CAPTION
-)
 
 LAYER_FEED_CHAT = os.environ.get("LAYER_FEED_CHAT", True)
 
@@ -35,8 +30,8 @@ async def check_feed(client):
             message = await client.send_document(
                 LAYER_FEED_CHAT,
                 file,
-                caption=LAYER_UPDATE_MESSAGE_CAPTION
+                caption=Hello
             )
             await message.pin(disable_notification=True)
             last_hash = hash(contents)
-        await asyncio.sleep(LAYER_UPDATE_INTERVAL)
+        await asyncio.sleep(10)
