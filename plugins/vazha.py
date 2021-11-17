@@ -7,13 +7,13 @@ from pyrogram import (
 )
 from pyrogram.errors import MessageNotModified
 from pyrogram.raw.all import layer
-from vazha import (
+from pyrobot import (
     APP_ID,
     API_HASH,
     LAYER_UPDATE_INTERVAL,
     LOGGER,
-    OWNER_ID,
-    SUDO_USERS,
+    # OWNER_ID,
+    # SUDO_USERS,
     TG_COMPANION_BOT,
     TMP_DOWNLOAD_DIRECTORY,
     TG_URI,
@@ -24,7 +24,7 @@ from vazha import (
 from plugins.helper_functions.scheme import check_feed
 
 
-class VazHa(Client):
+class pyrobot(Client):
     filterstore: Dict[str, Dict[str, str]] = defaultdict(dict)
     warndatastore: Dict[
         str, Dict[str, Union[str, int, List[str]]]
