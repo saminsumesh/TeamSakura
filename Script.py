@@ -20,6 +20,21 @@ CODES:
 1. Auto Filter
 2. Group Managing  
 """
+    BAN_TXT = """<b>Bans:</b>
+Some people need to be publicly banned; spammers, annoyances, or just trolls.
+
+<b>Admin commands:</b>
+- /ban - Ban a user
+- /tban - Temporarily ban a user.
+Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks.
+- /unban - Unban a user
+
+<b>Example:</b>
+- Ban a user for two hours
+-> /tban @username 2h
+
+Made By @SakuraBotUpdates ❤️
+"""
     FUN_TXT ="""<b>FUN MODULE</b> 
     
 <b>🎲 NOTHING MUCH JUST SOME FUN THINGS</b>
