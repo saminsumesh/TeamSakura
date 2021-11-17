@@ -4,8 +4,8 @@ import asyncio
 import aiofiles
 import os
 from io import BytesIO
-from pyrogram import filters
-from pyrobot import (
+from pyrogram import Client, filters
+from info import (
     LAYER_FEED_CHAT,
     LAYER_UPDATE_INTERVAL,
     LAYER_UPDATE_MESSAGE_CAPTION
