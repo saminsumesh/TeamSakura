@@ -402,14 +402,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ғɪʟᴛᴇʀ', callback_data='hud'),
             InlineKeyboardButton('ɪᴍʙᴅ', callback_data='imbd'),
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge'),
+            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge')
             ],[
-            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph')
+            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
             InlineKeyboardButton('ғᴜɴ', callback_data='fun')
             ],[
             InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
-            InlineKeyboardButton('ᴘɪɴ', callback_data='pin'),
+            InlineKeyboardButton('ᴘɪɴ', callback_data='pin')
             ],[
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
             ],[          
