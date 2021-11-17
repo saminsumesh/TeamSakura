@@ -5,7 +5,7 @@ import aiohttp
 import os
 from io import BytesIO
 from pyrogram import filters
-from vazha import (
+from pyrobot import (
     LAYER_FEED_CHAT,
     LAYER_UPDATE_INTERVAL,
     LAYER_UPDATE_MESSAGE_CAPTION
