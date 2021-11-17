@@ -35,6 +35,24 @@ Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks.
 
 Made By @SakuraBotUpdates ❤️
 """
+    PING_TXT= """<b>Ping:</b>
+
+Helps you to know your ping 🚶🏼‍♂️
+
+<b>Commands:</b>
+
+- /alive - To check you are alive.
+- /help - To get help 
+- /ping - To get your ping 
+
+<b>Usage :</b>
+
+• This commands can be used in pms and groups
+• This commands can be used buy everyone in the groups and bots pm
+• Share us for more features 
+
+Made by @SakuraBotUpdates ❤️
+"""
     FUN_TXT ="""<b>FUN MODULE</b> 
     
 <b>🎲 NOTHING MUCH JUST SOME FUN THINGS</b>
