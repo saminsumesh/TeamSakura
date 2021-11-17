@@ -5,11 +5,11 @@
 from pyrogram import (
     filters
 )
-from sudo import (
+from pyrobot import (
     SUDO_USERS,
     USE_AS_BOT
 )
-from pyrobot.helper_functions.admin_check import admin_check
+from plugins.helper_functions.admin_check import admin_check
 
 
 def f_sudo_filter(filt, client, message):
