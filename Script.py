@@ -20,6 +20,14 @@ CODES:
 1. Auto Filter
 2. Group Managing  
 """
+    PURGE_TXT ="""<b>Purge</b>
+    
+    Delete A Lot Of Messages From Groups! 
+    
+    <b>ADMIN</b> 
+    
+    ◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message
+    """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 -  𝙸𝚏 𝚈𝚘𝚞 𝙳𝚘𝚗'𝚝 𝚆𝚊𝚗𝚝 𝚃𝚠𝚘 𝙱𝚘𝚝 𝚄𝚜𝚎 𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛 𝙵𝚘𝚛 𝙵𝚒𝚕𝚝𝚎𝚛𝚒𝚗𝚐 𝚆𝚎𝚋𝚜𝚎𝚛𝚒𝚎𝚜
