@@ -89,6 +89,19 @@ All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The
 
 Made By @SakuraBotUpdates ❤️
 """
+    TGRAPH_TXT ="""<b>HELP: Telegraph</b>
+
+Do as you wish with telegra.ph module!
+
+<b>USAGE:</b>
+
+🤧 /telegraph - upload supported media (within 5MB) to telegraph
+
+NOTE:
+• Sakura should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member.
+"""
     IMBD_TXT ="""<b>Search</b>
 
 Search anything without leaving telegram!
