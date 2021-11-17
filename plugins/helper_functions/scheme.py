@@ -1,7 +1,7 @@
 # Closed Source
 
 import asyncio
-import aiohttp
+import aiofiles
 import os
 from io import BytesIO
 from pyrogram import filters
@@ -13,7 +13,7 @@ from pyrobot import (
 
 
 async def fetch(scheme_url: str):
-    async with aiohttp.ClientSession() as session:
+    async with aiofiles.ClientSession() as session:
         response = await session.get(scheme_url)
         return str.encode(await response.text())
 
