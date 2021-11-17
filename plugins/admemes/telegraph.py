@@ -9,8 +9,7 @@ from plugins.helper_functions.get_file_id import get_file_id
 TMP_DOWNLOAD_DIRECTORY = "./DOWNLOADS/"
 
 @Client.on_message(
-    filters.command("telegraph") &
-    sudo_filter
+    filters.command("telegraph") 
 )
 async def telegraph(client, message):
     replied = message.reply_to_message
