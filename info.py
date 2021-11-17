@@ -31,7 +31,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Command
-COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", "/")
+COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
