@@ -73,7 +73,7 @@ CODES:
 
 All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!
 
-<b>📚 Admin Commands:</b>
+<b>📚 Commands & Usage:</b>
 
 ◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members
 
