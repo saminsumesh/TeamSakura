@@ -11,7 +11,7 @@ from pyrogram import (
 )
 from pyrogram.errors import MessageNotModified
 from pyrogram.raw.all import layer
-from pyrobot import (
+from bot import (
     APP_ID,
     API_HASH,
     LAYER_UPDATE_INTERVAL,
@@ -25,10 +25,10 @@ from pyrobot import (
     WARN_DATA_ID,
     WARN_SETTINGS_ID
 )
-from pyrobot.helper_functions.scheme import check_feed
+from plugins.helper_functions.scheme import check_feed
 
 
-class PyroBot(Client):
+class Pyrobot(Client):
     filterstore: Dict[str, Dict[str, str]] = defaultdict(dict)
     warndatastore: Dict[
         str, Dict[str, Union[str, int, List[str]]]
