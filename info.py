@@ -33,6 +33,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Command
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
+USE_AS_BOT = is_enabled(environ.get("USE_AS_BOT", "True"), True)
 
 # the maximum number of 'selectable' messages in Telegram
 TG_MAX_SELECT_LEN = 100
