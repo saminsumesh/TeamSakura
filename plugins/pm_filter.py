@@ -444,7 +444,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "imbd":
         buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
