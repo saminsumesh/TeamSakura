@@ -5,7 +5,7 @@ from info import ADMINS
 from plugins.helper_functions.admin_check import admin_check
 import os
 
-USE_AS_BOT = os.environ.get("USE_AS_BOT", True))
+USE_AS_BOT = os.environ.get("USE_AS_BOT", True)
 
 def f_sudo_filter(filt, client, message):
     return bool(
