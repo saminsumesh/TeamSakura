@@ -14,8 +14,10 @@ class script(object):
 - Sakura is a closed source project.   
 
 <b>DEVS:</b>
-- <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛</a>
-
+- <a href='https://t.me/PaulWalker_TG'>PaulWalker</a>
+- <a href='https://t.me/MuFazTG'>MuFazTG</a>
+- <a href='https://t.me/Jinn_Sulthan'>JINN</a>
+- <a href='https://t.me/MyFreak123'>BLINDER TG</a>
 CODES:
 1. Auto Filter
 2. Group Managing  
