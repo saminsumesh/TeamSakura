@@ -41,7 +41,10 @@ CODES:
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+• /delall - <code>delete the whole filters in a chat (chat owner only)</code>
+
+Made By @SakuraBotUpdates ❤️
+"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Sakura Supports both url and alert inline buttons.
@@ -55,14 +58,20 @@ CODES:
 <code>[Button Text](buttonurl:https//t.me/Sakurabotupdates)</code>
 
 <b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message)</code>"""
+<code>[Button Text](buttonalert:This is an alert message)</code>
+
+Made By @SakuraBotUpdates ❤️
+"""
     AUTOFILTER_TXT = """<b>Auto Filter</b>
 
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
 2. make sure that your channel does not contains cam rip, porn and fake files.
 3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+ I'll add all the files in that channel to my db.
+
+Made By @SakuraBotUpdates ❤️
+"""
     CONNECTION_TXT = """<b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
@@ -75,7 +84,10 @@ CODES:
 <b>Commands and Usage:</b>
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
-• /connections - <code>list all your connections</code>"""
+• /connections - <code>list all your connections</code>
+
+Made By @SakuraBotUpdates ❤️
+"""
     FILTER_TXT ="""𝚂𝙴𝙻𝙴𝙲𝚃 𝙰 𝙵𝙸𝙻𝚃𝙴𝚁 𝚃𝚈𝙿𝙴 𝙱𝙴𝙻𝙾𝚆:"""
     PIN_TXT = """<b> Pin :- </b>
 
@@ -95,11 +107,14 @@ Do as you wish with telegra.ph module!
 
 <b>USAGE:</b>
 
-🤧 send me the file which should be created as telegraph link (5MB)
+🤧 /telegraph - Send me Picture or Vide Under (5MB)
 
 NOTE:
 • Sakura should have admin privillage.
-• This Command Is Automated So Just Sent The Photo
+• This Command Is Available in goups and pms
+• This Command Can be used by everyone
+
+Made By @SakuraBotUpdates ❤️
 """
     IMBD_TXT ="""<b>Search</b>
 
@@ -108,6 +123,8 @@ Search anything without leaving telegram!
 USAGE:
 ➥ /imdb - get the film information from IMDb source
 ➥ /search - get the film information from various sources
+
+Made By @SakuraBotUpdates ❤️
 """
     INFO_TXT ="""<b>Info</b>
 
@@ -121,6 +138,8 @@ USAGE:
 • Sakura should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member.
+
+Made By @SakuraBotUpdates ❤️
 """
     EXTRAMOD_TXT = """<b>Extra Modules</b>
 
@@ -131,7 +150,10 @@ these are the extra features of tessa
 • /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+• /search  - <code>get the film information from various sources.</code>
+
+Made By @SakuraBotUpdates ❤️
+"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
