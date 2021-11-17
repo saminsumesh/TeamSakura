@@ -10,7 +10,7 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
 ALIVE = "Not Dead"
-HELP = "CAADAgAD6AkAAowucAABsFGHedLEzeUWBA"
+HELP = "CAACAgUAAxkBAAEBTslhlWWBj2HE1KAC6BbwJ_sp92XteAACLQEAApseDy4SMlWZK1g_Qx4E"
 # -- Constants End -- #
 
 
