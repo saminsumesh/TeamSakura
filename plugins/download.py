@@ -1,4 +1,5 @@
-import from info APP_ID, API_HASH, 
+import from info APP_ID, API_HASH, BOT_TOKEN
+from Pyrogram import Client
 
 
     def __init__(self):
@@ -9,7 +10,7 @@ import from info APP_ID, API_HASH,
             workdir=TMP_DOWNLOAD_DIRECTORY,
             api_id=APP_ID,
             api_hash=API_HASH,
-            bot_token=TG_COMPANION_BOT,
+            bot_token=BOT_TOKEN,
             parse_mode="html",
             sleep_threshold=60
         )
