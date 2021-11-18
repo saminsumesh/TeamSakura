@@ -11,7 +11,7 @@ class script(object):
 ✯ LIBRARY: PYROGRAM
 ✯ LANGUAGE: PYTHON 𝟹
 ✯ DATA BASE: <a href='https://MongoDB.com'>MONGO DB</a>
-✯ BOT SERVER: <a href='https://qovery.com'>𝚀𝙾𝚅𝙴𝚁𝚈</a>
+✯ SERVER: <a href='https://qovery.com'>QOVERY</a>
 ✯ BUILD STATUS: v1.0.1 [BETA]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Sakura is a closed source project.   
