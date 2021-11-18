@@ -11,3 +11,4 @@ telegraph
 pyrogram
 aiohttp
 loguru
+PyYAML>5.0
