@@ -6,7 +6,7 @@ class script(object):
 /help - 𝗀𝖾𝗍 𝗍𝗁𝗂𝗌 𝗁𝖾𝗅𝗉 𝗆𝖾𝗌𝗌𝖺𝗀𝖾
 /about - 𝖺𝖻𝗈𝗎𝗍 𝗆𝖾
 """
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝚂𝙰𝙺𝚄𝚁𝙰
+    ABOUT_TXT = """✯ NAME: SAKURA
 ✯ CREATOR: <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛 🇱🇷</a>
 ✯ LIBRARY: PYROGRAM
 ✯ LANGUAGE: PYTHON 𝟹
