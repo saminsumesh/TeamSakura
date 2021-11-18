@@ -26,7 +26,7 @@ async def ban_user(_, message):
             await message.reply_text(
                 "Who Are You...Lamo"
                 f"{user_first_name}"
-                "You're Limited"
+                "You're Banned"
             )
         else:
             await message.reply_text(
@@ -34,7 +34,7 @@ async def ban_user(_, message):
                 f"<a href='tg://user?id={user_id}'>"
                 f"{user_first_name}"
                 "</a>"
-                " You're Limited."
+                " You're Banned."
             )
 
 
