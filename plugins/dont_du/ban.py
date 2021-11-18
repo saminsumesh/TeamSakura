@@ -53,7 +53,7 @@ async def temp_ban_user(_, message):
     if until_date_val is None:
         await message.reply_text(
             (
-                "Only Just Some Matter Of Time "
+                "Invalid time type specified. "
                 "Excepted m, h, or d, Got: {}"
             ).format(
                 message.command[1][-1]
