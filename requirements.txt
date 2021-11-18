@@ -11,4 +11,3 @@ telegraph
 pyrogram
 aiohttp
 loguru
-yaml
