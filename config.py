@@ -68,7 +68,7 @@ def get_list_key(name, required=False):
         default = DEFAULTS[name]
     else:
         default = None
-    if not (data := .list(name, default=default)) and not required:
+    if not (data := environ.list(name, default=default)) and not required:
         log.warn("No list key: " + name)
         return []
     elif not data:
