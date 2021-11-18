@@ -5,14 +5,14 @@ from pyrogram.types import (
 from info import (
     COMMAND_HAND_LER
 )
+from plugins.helper_functions.admin_check import admin_check
 from plugins.helper_functions.cust_p_filters import (
     admin_fliter
 )
 
 
 @Client.on_message(
-    filters.command(["warns"], COMMAND_HAND_LER) &
-    admin_fliter
+    filters.command(["warns"], COMMAND_HAND_LER))
 )
 async def check_warns_of_user(client: PyroBot, msg: Message):
     replied = msg.reply_to_message
