@@ -2,7 +2,7 @@ import os
 import sys
 
 import yaml
-from os import environ
+from envparse import env
 
 from plugins.utils.logger import log
 
@@ -30,7 +30,7 @@ if os.path.isfile(CONFIG_PATH):
     ):
         DEFAULTS[item.upper()] = data[item]
 else:
-    log.info("Using environ vars")
+    log.info("Using env vars")
 
 
 def get_str_key(name, required=False):
@@ -38,7 +38,7 @@ def get_str_key(name, required=False):
         default = DEFAULTS[name]
     else:
         default = None
-    if not (data := environ.str(name, default=default)) and not required:
+    if not (data := env.str(name, default=default)) and not required:
         log.warn("No str key: " + name)
         return None
     elif not data:
@@ -53,7 +53,7 @@ def get_int_key(name, required=False):
         default = DEFAULTS[name]
     else:
         default = None
-    if not (data := environ.int(name, default=default)) and not required:
+    if not (data := env.int(name, default=default)) and not required:
         log.warn("No int key: " + name)
         return None
     elif not data:
@@ -68,7 +68,7 @@ def get_list_key(name, required=False):
         default = DEFAULTS[name]
     else:
         default = None
-    if not (data := environ.list(name, default=default)) and not required:
+    if not (data := env.list(name, default=default)) and not required:
         log.warn("No list key: " + name)
         return []
     elif not data:
@@ -83,7 +83,7 @@ def get_bool_key(name, required=False):
         default = DEFAULTS[name]
     else:
         default = None
-    if not (data := environ.bool(name, default=default)) and not required:
+    if not (data := env.bool(name, default=default)) and not required:
         log.warn("No bool key: " + name)
         return False
     elif not data:
