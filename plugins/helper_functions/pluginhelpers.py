@@ -8,7 +8,6 @@ from functools import wraps
 from typing import Callable, Coroutine, Dict, List, Tuple, Union
 
 import aiohttp
-from PIL import Image
 from pyrogram import Client
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Chat, Message, User
