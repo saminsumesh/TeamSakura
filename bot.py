@@ -1,3 +1,4 @@
+import json
 import logging
 import logging.config
 
@@ -9,7 +10,7 @@ from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 from database.ia_filterdb import Media
 from database.users_chats_db import db
-from info import SESSION, API_ID, API_HASH, BOT_TOKEN
+from info import SESSION, API_ID, API_HASH, BOT_TOKEN, WARN_DATA_ID, WARN_SETTINGS_ID
 from utils import temp
 
 class Bot(Client):
@@ -37,7 +38,17 @@ class Bot(Client):
         self.username = '@' + me.username
         print(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
 
+        )
+
     async def stop(self, *args):
+        await self.save_public_store(
+            WARN_DATA_ID,
+            json.dumps(self.warndatastore)
+        )
+        await self.save_public_store(
+            WARN_SETTINGS_ID,
+            json.dumps(self.warnsettingsstore)
+        )
         await super().stop()
         print("Bot stopped. Bye.")
 
