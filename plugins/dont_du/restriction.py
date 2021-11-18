@@ -91,7 +91,7 @@ async def temp_mute_user(_, message):
             await message.reply_text(
                 "Be quiet for a while! 😠"
                 f"<a href='tg://user?id={user_id}'>"
-                "His"
+                "His "
                 "</a>"
                 "Mouth"
                 f" muted for {message.command[1]}!"
