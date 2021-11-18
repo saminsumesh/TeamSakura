@@ -12,7 +12,8 @@ from plugins.helper_functions.cust_p_filters import (
 
 
 @Client.on_message(
-    filters.command(["warns"], COMMAND_HAND_LER))
+    filters.command(["warns"], COMMAND_HAND_LER) &
+    admin_fliter
 )
 async def check_warns_of_user(client: PyroBot, msg: Message):
     replied = msg.reply_to_message
