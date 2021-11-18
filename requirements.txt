@@ -10,3 +10,4 @@ aiofiles
 telegraph
 pyrogram
 aiohttp
+loguru
