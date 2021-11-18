@@ -1,15 +1,18 @@
 class script(object):
     START_TXT = """𝖧𝖾𝗅𝗅𝗈 {},
 𝖬𝗒 𝖭𝖺𝗆𝖾 𝖨𝗌 <a href='https://t.me/Sakurafilterbot'>𝖲𝖺𝗄𝗎𝗋𝖺</a>,𝖸𝗈𝗎 𝖢𝖺𝗇 𝖴𝗌𝖾 𝖬𝖾 𝖨𝗇 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉𝗌 𝖠𝗅𝗌𝗈 , 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗇𝖽 𝖬𝖺𝗄𝖾 𝖬𝖾 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇📍"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄."""
+    HELP_TXT = """<b>𝖧𝖾𝗋𝖾 𝗂𝗌 𝗍𝗁𝖾 𝖴𝗌𝗎𝖺𝗅 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌:</b> 
+/start - 𝖼𝗁𝖾𝖼𝗄 𝗐𝗁𝖾𝗍𝗁𝖾𝗋 𝗂𝗆 𝗈𝗇𝗅𝗂𝗇𝖾 
+/help - 𝗀𝖾𝗍 𝗍𝗁𝗂𝗌 𝗁𝖾𝗅𝗉 𝗆𝖾𝗌𝗌𝖺𝗀𝖾
+/about - 𝖺𝖻𝗈𝗎𝗍 𝗆𝖾
+"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝚂𝙰𝙺𝚄𝚁𝙰
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛 🇱🇷</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://MongoDB.com'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://qovery.com'>𝚀𝙾𝚅𝙴𝚁𝚈</a>
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [BETA]"""
+✯ CREATOR: <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛 🇱🇷</a>
+✯ LIBRARY: PYROGRAM
+✯ LANGUAGE: PYTHON 𝟹
+✯ DATA BASE: <a href='https://MongoDB.com'>MONGO DB</a>
+✯ BOT SERVER: <a href='https://qovery.com'>𝚀𝙾𝚅𝙴𝚁𝚈</a>
+✯ BUILD STATUS: v1.0.1 [BETA]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Sakura is a closed source project.   
 
@@ -80,11 +83,10 @@ Made By @SakuraBotUpdates ❤️
 """
     PURGE_TXT ="""<b>Purge</b>
     
-    Delete A Lot Of Messages From Groups! 
+Delete A Lot Of Messages From Groups! 
     
-    <b>ADMIN</b> 
-    
-    ◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message
+ <b>ADMIN</b> 
+◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message
 
 Made By @SakuraBotUpdates ❤️
     """
@@ -116,7 +118,7 @@ Made By @SakuraBotUpdates ❤️
 - /tmute - 𝖳𝖾𝗆𝗉𝗈𝗋𝖺𝗋𝗂𝗅𝗒 𝖬𝗎𝗍𝖾 𝖺 𝗎𝗌𝖾𝗋. 𝖤𝗑𝖺𝗆𝗉𝗅𝖾 𝗍𝗂𝗆𝖾 𝗏𝖺𝗅𝗎𝖾𝗌: 𝟦𝗆 = 𝟦 𝗆𝗂𝗇𝗎𝗍𝖾𝗌, 𝟥𝗁 = 𝟥 𝗁𝗈𝗎𝗋𝗌, 𝟨𝖽 = 𝟨 𝖽𝖺𝗒𝗌, 𝟧𝗐 = 𝟧 𝗐𝖾𝖾𝗄𝗌. 
 - /unmute - 𝖴𝗇mute 𝖺 𝗎𝗌𝖾𝗋.  
 𝖤𝗑𝖺𝗆𝗉𝗅𝖾𝗌:
- - 𝖬𝗎𝗍𝖾 𝖺 𝗎𝗌𝖾𝗋 𝖿𝗈𝗋 𝗍𝗐𝗈 𝗁𝗈𝗎𝗋𝗌. 
+- 𝖬𝗎𝗍𝖾 𝖺 𝗎𝗌𝖾𝗋 𝖿𝗈𝗋 𝗍𝗐𝗈 𝗁𝗈𝗎𝗋𝗌. 
 -> /tmute @𝗎𝗌𝖾𝗋𝗇𝖺𝗆𝖾 𝟤𝗁
 
 Made By @SakuraBotUpdates ❤️
