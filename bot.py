@@ -35,9 +35,10 @@ class Bot(Client):
         me = await self.get_me()
         temp.ME = me.id
         temp.U_NAME = me.username
+        self.warndatastore = await self.load_public_store(WARN_DATA_ID)
+        self.warnsettingsstore = await self.load_public_store(WARN_SETTINGS_ID)
         self.username = '@' + me.username
         print(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
-
         )
 
     async def stop(self, *args):
