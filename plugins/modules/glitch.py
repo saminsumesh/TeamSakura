@@ -11,17 +11,9 @@ START_BUTTONS = InlineKeyboardMarkup(
 )
 PATH = os.environ.get("PATH", "./DOWNLOADS")
 
-@Client.on_message(filters.private & filters.command(["glitch"]))
-async def reply_info(bot, update):
-    await update.reply_text(
-        text=.format(update.from_user.mention),
-        reply_markup=START_BUTTONS,
-        disable_web_page_preview=True,
-        quote=True
-    )
 
 
-@Bot.on_message(filters.private & filters.photo)
+@Bot.on_message(filters.private & filters.command(["start"]))
 async def glitch_art(bot, update):
     download_path = PATH + "/" + str(update.from_user.id) + "/"
     download_location = download_path + "photo.jpg"
