@@ -13,3 +13,4 @@ aiohttp
 loguru
 PyYAML>5.0
 envparse
+ytthumb
