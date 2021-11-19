@@ -6,6 +6,15 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 PATH = os.environ.get("PATH", "./DOWNLOADS")
 
+@Client.on_message(filters.private & filters.command(["glitch"]))
+async def reply_info(bot, update):
+    await update.reply_text(
+        text=text.format(update.from_user.mention),
+        reply_markup=START_BUTTONS,
+        disable_web_page_preview=True,
+        quote=True
+    )
+
 
 @Client.on_message(filters.private & filters.photo)
 async def glitch_art(bot, update):
@@ -28,7 +37,7 @@ async def glitch_art(bot, update):
         text="`Converting to glitch...`"
     )
     try:
-        glitch_art = glitchart.jpg(download_location)
+        glitch_art = glitchart.jpeg(download_location)
         await update.reply_photo(photo=glitch_art, quote=True)
         os.remove(download_location)
         os.remove(glitch_art)
