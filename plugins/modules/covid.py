@@ -16,7 +16,7 @@ async def reply_info(bot, update):
     query = update.text.split(None, 1)[1]
     reply_markup = BUTTONS
     await update.reply_text(
-        text=covid_info(update.text),
+        text=covid_info(query),
         disable_web_page_preview=True,
         quote=True,
         reply_markup=reply_markup
