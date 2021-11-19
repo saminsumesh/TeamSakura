@@ -40,8 +40,8 @@ CALCULATE_BUTTONS = InlineKeyboardMarkup(
 
 
 @Client.on_message(filters.command("calc"))
-async reply_info(bot, update):
-    await update.reply_text(
+async def reply_info(bot, update):
+        await update.reply_text(
         query = update.text.split(None, 1)[1]
         reply_markup=CALCULATE_BUTTONS,
         disable_web_page_preview=True,
