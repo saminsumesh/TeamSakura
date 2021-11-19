@@ -7,12 +7,12 @@ class script(object):
 /about - 𝖺𝖻𝗈𝗎𝗍 𝗆𝖾
 """
     ABOUT_TXT = """✯ NAME: SAKURA
-✯ CREATOR: <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛 🇱🇷</a>
-✯ LIBRARY: PYROGRAM
-✯ LANGUAGE: PYTHON 𝟹
-✯ DATA BASE: <a href='https://MongoDB.com'>MONGO DB</a>
-✯ SERVER: <a href='https://qovery.com'>QOVERY</a>
-✯ BUILD STATUS: v1.0.1 [BETA]"""
+✯ Creator: <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛 🇱🇷</a>
+✯ Library: PYROGRAM
+✯ Language: PYTHON 𝟹
+✯ Database: <a href='https://MongoDB.com'>MONGO DB</a>
+✯ Server: <a href='https://qovery.com'>QOVERY</a>
+✯ Build Status: v1.7.5 [BETA]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Sakura is a closed source project.   
 
