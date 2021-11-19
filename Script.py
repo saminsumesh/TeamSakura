@@ -116,6 +116,19 @@ Made By @SakuraBotUpdates ❤️
 
 Made By @SakuraBotUpdates ❤️
 """
+    SONG_TXT = """<b>Song Download</b>
+Song Download Module, For Those Who Love Music
+
+<b>🎈 Command</b>
+
+- /song [Song Name] - To Download Music
+
+<b>Usage</b>
+- Can Be Used By Everyone
+- Works in bot pm
+
+Made By @SakuraBotUpdates ❤️
+"""
     MUTE_TXT = """<b>𝖬𝗎𝗍𝖾:</b>
 
 𝖲𝗈𝗆𝖾 𝗉𝖾𝗈𝗉𝗅𝖾 𝗇𝖾𝖾𝖽 𝗍𝗈 𝖻𝖾 𝗉𝗎𝖻𝗅𝗂𝖼𝗅𝗒 Muted; 𝗌𝗉𝖺𝗆𝗆𝖾𝗋𝗌, 𝖺𝗇𝗇𝗈𝗒𝖺𝗇𝖼𝖾𝗌, 𝗈𝗋 𝗃𝗎𝗌𝗍 𝗍𝗋𝗈𝗅𝗅𝗌.  
