@@ -4,22 +4,11 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-START_TEXT = """
-Hello I am a photo to glitch art Module Created By @SakuraBotSupport
-
-Made by @SakuraBotUpdates
-"""
-START_BUTTONS = InlineKeyboardMarkup(
-    [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
-    ]]
-)
 PATH = os.environ.get("PATH", "./DOWNLOADS")
 
 
 @Client.on_message(filters.private & filters.command("glitch"))
-async def glitch_art(bot, update):
+async def reply_info(bot, update):
     download_path = PATH + "/" + str(update.from_user.id) + "/"
     download_location = download_path + "photo.jpg"
     message = await update.reply_text(
