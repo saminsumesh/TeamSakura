@@ -1,4 +1,3 @@
-import ytthumb
 from youtubesearchpython import VideosSearch
 
 
