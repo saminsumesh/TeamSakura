@@ -10,8 +10,8 @@ aiofiles
 telegraph
 pyrogram
 aiohttp
-loguru
-PyYAML>5.0
 envparse
-ytthumb
-youtube-search-python
+youtube_dl
+youtube_search_python
+youtube_search
+ffmpeg-python
