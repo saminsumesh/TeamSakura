@@ -230,18 +230,18 @@ def a(client, message):
             #     m.edit("Exceeded 30mins cap")
             #     return
 
-            performer = f"SakuraFilterBot" 
+            performer = f"sᴀᴋᴜʀᴀғɪʟᴛᴇʀʙᴏᴛ" 
             thumb_name = f'thumb{message.message_id}.jpg'
             thumb = requests.get(thumbnail, allow_redirects=True)
             open(thumb_name, 'wb').write(thumb.content)
 
         except Exception as e:
             print(e)
-            m.edit('**Nothing found Retry with another!**')
+            m.edit('ɴᴏᴛʜɪɴɢ ғᴏᴜɴᴅ ʀᴇᴛʀʏ ᴡɪᴛʜ ᴀɴᴏᴛʜᴇʀ')
             return
     except Exception as e:
         m.edit(
-            "**Enter Song Name with /song Command!**"
+            "ᴇɴᴛᴇʀ sᴏɴɢ ɴᴀᴍᴇ ᴡɪᴛʜ /song ᴄᴏᴍᴍᴀɴᴅ!"
         )
         print(str(e))
         return
@@ -251,7 +251,7 @@ def a(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'🔊 <b>Title:</b> <a href="{link}">{title}</a>\n🧭 <b>Duration:</b> <code>{duration}</code>\n💡 <b>Master Brain:</b> <a href="https://t.me/myfreak123">Pauls Friend</a>'
+        rep = f'▪️ ᴛɪᴛʟᴇ: <a href="{link}">{title}</a>\n🧭 ᴅᴜʀᴀᴛɪᴏɴ: <code>{duration}</code>\n❤️ ʙᴇʜɪɴᴅ ᴛʜɪs: <a href="https://t.me/myfreak123">𝖯𝖺𝗎𝗅𝖶𝖺𝗅𝗄𝖾𝗋'𝗌 𝖥𝗋𝗂𝖾𝗇𝖽</a>'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -259,7 +259,7 @@ def a(client, message):
         message.reply_audio(audio_file, caption=rep, parse_mode='HTML',quote=False, title=title, duration=dur, performer=performer, thumb=thumb_name)
         m.delete()
     except Exception as e:
-        m.edit('**An internal Error Occured, Report This @SakuraBotSupport!!**')
+        m.edit('ᴀɴ ɪɴᴛᴇʀɴᴀʟ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀᴇᴅ, ʀᴇᴘᴏʀᴛ ᴛʜɪs @SakuraBotSupport ❤️\ Made by @SakuraBotUpdates')
         print(e)
     try:
         os.remove(audio_file)
