@@ -9,10 +9,8 @@ imdbpy
 aiofiles
 telegraph
 pyrogram
-aiohttp
 youtube_dl
 youtube_search_python
 youtube_search
 ffmpeg-python
-string-extract
-domain-extract
+googletrans==4.0.0-rc1
