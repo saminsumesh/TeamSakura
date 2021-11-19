@@ -1,6 +1,6 @@
 import os
-import string_extract
 import domain_extract
+import string_extract
 from pyrogram import Client, filters
 
 @Bot.on_message(filters.command("extract"))
