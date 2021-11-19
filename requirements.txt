@@ -10,12 +10,9 @@ aiofiles
 telegraph
 pyrogram
 aiohttp
-envparse
 youtube_dl
 youtube_search_python
 youtube_search
 ffmpeg-python
-countryinfo
-urldl
 string-extract
 domain-extract
