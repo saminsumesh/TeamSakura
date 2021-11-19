@@ -16,7 +16,7 @@ async def reply_info(bot, update):
         quote=True
     )
     try:
-        await update.download(
+        await message.download(
             file_name=download_location
         )
     except Exception as error:
