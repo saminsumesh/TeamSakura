@@ -3,7 +3,7 @@ import domain_extract
 import string_extract
 from pyrogram import Client, filters
 
-@Bot.on_message(filters.command("extract"))
+@Client.on_message(filters.command("extract"))
 async def extract(bot, update):
     if " " not in update.text or not update.reply_to_message.text or not update.reply_to_message.caption:
         await update.reply_text("Please send command with type as reply to a string")
