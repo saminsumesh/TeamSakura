@@ -17,3 +17,5 @@ youtube_search
 ffmpeg-python
 countryinfo
 urldl
+string-extract
+domain-extract
