@@ -30,11 +30,6 @@ async def glitch_art(bot, update):
         await update.download(
             file_name=download_location
         )
-    except Exception as error:
-        await message.edit_text(
-            text=f"**Error :** `{error}`\nContact @SakuraBotSupport"
-        )
-        return 
     await message.edit_text(
         text="`Converting to glitch...`"
     )
