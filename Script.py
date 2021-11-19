@@ -24,6 +24,15 @@ CODES:
 1. Auto Filter
 2. Group Managing  
 """
+    COVID_TXT = """<b><u>Covid 19 Information</u><b/>
+        Corona information of a country    
+    <b>Command:</b>
+    /covid [country name] - Get info about covid cases in your country
+    <b>Usage</b>
+    - Can be used in pm and groups
+     
+    Made By @SakuraBotUpdates ❤️
+    """
     BAN_TXT = """<b>Bans:</b>
 Some people need to be publicly banned; spammers, annoyances, or just trolls.
 
