@@ -4,6 +4,13 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton 
 from gofile import uploadFile
 
+@Client.on_message(filters.private & filters.command("start"))
+async def reply_text(bot, update):
+    await update.reply_text(
+        text=f"Hello {update.from_user.mention}, Please send a media for gofile.io stream link.\n\nMade by @FayasNoushad",
+        disable_web_page_preview=True,
+        quote=True
+    )
 
 @Client.on_message(filters.private & (filters.media | filters.text))
 async def filter(bot, update):
