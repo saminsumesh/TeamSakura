@@ -43,11 +43,14 @@ CALCULATE_BUTTONS = InlineKeyboardMarkup(
 async def reply_info(bot, update):
         await update.reply_text(
         query = update.text.split(None, 1)[1]
-        reply_markup=CALCULATE_BUTTONS,
+        reply_markup=CALCULATE_BUTTONS
+    await update.reply_text(
+        text=covid_info(query),
         disable_web_page_preview=True,
-        quote=True
+        quote=True,
+        reply_markup=reply_markup
     )
-
+                  
 
 @Client.on_callback_query()
 async def cb_data(bot, update):
