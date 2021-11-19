@@ -251,7 +251,7 @@ def a(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'▪️ 𝖳𝗂𝗍𝗅𝖾: <a href="{link}">{title}</a>\n🧭 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇: <code>{duration}</code>\n❤️ 𝖡𝖾𝗁𝗂𝗇𝖽 𝖳𝗁𝗂𝗌: <a href="https://t.me/myfreak123">𝖯𝖺𝗎𝗅𝖶𝖺𝗅𝗄𝖾𝗋'𝗌 𝖥𝗋𝗂𝖾𝗇𝖽</a>'
+        rep = f'▪️ 𝖳𝗂𝗍𝗅𝖾: <a href="{link}">{title}</a>\n🧭 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇: <code>{duration}</code>\n❤️ 𝖡𝖾𝗁𝗂𝗇𝖽 𝖳𝗁𝗂𝗌: <a href="https://t.me/myfreak123">𝖯𝖺𝗎𝗅𝖶𝖺𝗅𝗄𝖾𝗋𝗌 𝖥𝗋𝗂𝖾𝗇𝖽</a>'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
