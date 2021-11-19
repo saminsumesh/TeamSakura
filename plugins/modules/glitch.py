@@ -18,10 +18,12 @@ START_BUTTONS = InlineKeyboardMarkup(
 PATH = os.environ.get("PATH", "./DOWNLOADS")
 
 @Client.on_message(filters.private & filters.command(["glitch"]))
-async def reply_info(bot, update):
+async def reply_text(bot, update):
     await update.reply_text(
         query = update.text,
         reply_markup=START_BUTTONS,
+        await update.reply_text(
+            text=glitch_art(query)
         disable_web_page_preview=True,
         quote=True
     )
