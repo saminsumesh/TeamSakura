@@ -8,9 +8,12 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 API = "https://api.sumanjay.cf/covid/?country="
 
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://telegram.me/FayasNoushad')]])
 
-@Client.on_message(filters.private & filters.text)
-async def reply_info(bot, update):
+
+@Client.on_message(filters.command("covid"))
+async def reply_info(client, message):
+    query = message.text.split(None, 1)[1]
     reply_markup = BUTTONS
     await update.reply_text(
         text=covid_info(update.text),
