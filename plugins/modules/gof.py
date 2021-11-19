@@ -5,8 +5,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from gofile import uploadFile
 
 
-@Client.on_message(filters.private & (filters.media | filters.text | filters.command("start")) 
-async def update(bot, update):
+@Client.on_message(filters.private & (filters.media | filters.text))
+async def filter(bot, update):
     if not update.text.startswith("http://") or not update.text.startswith("https://"):
         return
     message = await update.reply_text(
