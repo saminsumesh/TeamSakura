@@ -20,7 +20,7 @@ PATH = os.environ.get("PATH", "./DOWNLOADS")
 @Client.on_message(filters.private & filters.command(["glitch"]))
 async def reply_info(bot, update):
     await update.reply_text(
-        text=START_TEXT.format(update.from_user.mention),
+        query = update.text,
         reply_markup=START_BUTTONS,
         disable_web_page_preview=True,
         quote=True
