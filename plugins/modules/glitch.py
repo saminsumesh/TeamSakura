@@ -18,7 +18,7 @@ async def glitch_art(bot, update):
     download_path = PATH + "/" + str(update.from_user.id) + "/"
     download_location = download_path + "photo.jpg"
     message = await update.reply_text(
-        text="`Processing...`",
+        text="`Processing....`",
         quote=True
     )
     try:
