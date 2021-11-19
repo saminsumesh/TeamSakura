@@ -8,15 +8,15 @@ PATH = os.environ.get("PATH", "./DOWNLOADS")
 
 
 @Client.on_message(filters.private & filters.photo, filters.command("glitch"))
-async def reply_info(bot, update):
-    download_path = PATH + "/" + str(update.from_user.id) + "/"
+async def glitch_art(bot, update):
+    download_path = PATH + "/"
     download_location = download_path + "image.jpg"
     message = await update.reply_text(
         text="`Processing...`",
         quote=True
     )
     try:
-        await message.download(
+        await update.download(
             file_name=download_location
         )
     except Exception as error:
