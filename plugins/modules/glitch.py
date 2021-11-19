@@ -13,7 +13,7 @@ PATH = os.environ.get("PATH", "./DOWNLOADS")
 
 
 
-@Bot.on_message(filters.private & filters.command(["start"]))
+@Client.on_message(filters.private & filters.command(["start"]))
 async def glitch_art(bot, update):
     download_path = PATH + "/" + str(update.from_user.id) + "/"
     download_location = download_path + "photo.jpg"
