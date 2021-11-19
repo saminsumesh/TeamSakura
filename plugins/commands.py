@@ -229,13 +229,13 @@ def covid_info(country_name):
         longitude = info['longitude']
         recovered = info['recovered']
         covid_info = f"""--**Covid 19 Information--**
-**Country :** `{country}`
-**Actived :** `{active}`
-**Confirmed :** `{confirmed}`
-**Deaths :** `{deaths}`
-**ID :** `{info_id}`
-**Last Update :** `{last_update}`
-**Latitude :** `{latitude}`
-**Longitude :** `{longitude}`
-**Recovered :** `{recovered}`
-Made by @SakuraBotUpdates ❤ """ 
+Country : `{country}`
+Actived : `{active}`
+Confirmed : `{confirmed}`
+Deaths : `{deaths}`
+ID : `{info_id}`
+Last Update : `{last_update}`
+Latitude : `{latitude}`
+Longitude : `{longitude}`
+Recovered : `{recovered}`
+Made by @SakuraBotUpdates ❤""" 
