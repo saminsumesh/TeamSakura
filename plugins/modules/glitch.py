@@ -30,17 +30,14 @@ async def glitch_art(bot, update):
         await update.download(
             file_name=download_location
         )
-    await message.edit_text(
-        text="`Converting to glitch...`"
+        await message.edit_text(
+            text="`Converting to glitch...`"
     )
     try:
         glitch_art = glitchart.jpeg(download_location)
         await update.reply_photo(photo=glitch_art, quote=True)
         os.remove(download_location)
         os.remove(glitch_art)
-    except Exception as error:
-        await message.edit_text(
-            text=f"**Error :** `{error}`\nContact @SakuraBotUpdates"
         )
         return
     await message.delete()
