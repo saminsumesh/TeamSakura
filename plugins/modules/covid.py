@@ -15,7 +15,7 @@ Made by @SakuraBotUpdates ❤"""
 BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://telegram.me/FayasNoushad')]])
 
 
-@Bot.on_message(filters.private & filters.text)
+@Client.on_message(filters.private & filters.text)
 async def reply_info(bot, update):
     reply_markup = BUTTONS
     await update.reply_text(
