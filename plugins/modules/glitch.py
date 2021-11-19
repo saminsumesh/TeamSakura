@@ -9,7 +9,7 @@ PATH = os.environ.get("PATH", "./DOWNLOADS")
 
 @Client.on_message(filters.private & filters.photo, filters.command("glitch"))
 async def glitch_art(bot, update):
-    download_path = PATH + "/"
+    download_path = PATH + "/" + str(update.from_user.id) + "/"
     download_location = download_path + "image.jpg"
     message = await update.reply_text(
         text="`Processing...`",
@@ -28,7 +28,7 @@ async def glitch_art(bot, update):
         text="`Converting to glitch...`"
     )
     try:
-        glitch_art = glitchart.jpeg(download_location)
+        glitch_art = glitchart.jpg(download_location)
         await update.reply_photo(photo=glitch_art, quote=True)
         os.remove(download_location)
         os.remove(glitch_art)
