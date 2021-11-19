@@ -197,7 +197,7 @@ async def delete_all_index_confirm(bot, message):
     await message.answer()
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
-   BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/sakurabotupdates')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/sakurabotupdates')]])
 
 API = "https://api.sumanjay.cf/covid/?country="
 
