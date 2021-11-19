@@ -13,7 +13,7 @@ BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url
 
 @Client.on_message(filters.command("covid"))
 async def reply_info(bot, update):
-    query = message.text.split(None, 1)[1]
+    query = update.text.split(None, 1)[1]
     reply_markup = BUTTONS
     await update.reply_text(
         text=covid_info(update.text),
