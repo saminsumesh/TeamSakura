@@ -17,8 +17,8 @@ from plugins.helper_functions.extract_link import extract_link
 
 TMP_DOWNLOAD_DIRECTORY = "./DOWNLOADS/"
 
-@Client.on_message(filters.command("ytdl", COMMAND_HAND_LER)
-async def down_load_media(client, message):
+@Client.on_message(filters.command("ytdl", COMMAND_HAND_LER))
+async def down_load_media(client, m):
     status_message = await message.reply_text("...", quote=True)
 
     current_user_id = message.from_user.id
