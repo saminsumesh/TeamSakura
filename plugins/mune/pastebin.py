@@ -12,9 +12,8 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message
 )
-from pyrobot import (
-    COMMAND_HAND_LER,
-    TMP_DOWNLOAD_DIRECTORY,
+from info import (
+    COMMAND_HAND_LER
     paste_bin_store_s
 )
 
