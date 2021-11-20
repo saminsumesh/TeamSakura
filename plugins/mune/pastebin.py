@@ -13,8 +13,7 @@ from pyrogram.types import (
     Message
 )
 from info import (
-    COMMAND_HAND_LER,
-    paste_bin_store_s
+    COMMAND_HAND_LER
 )
 
 TMP_DOWNLOAD_DIRECTORY = "./DOWNLOADS/"
