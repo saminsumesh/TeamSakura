@@ -1,7 +1,7 @@
 """IX.IO pastebin like site
 Syntax: .paste"""
 
-import aiohttp
+import aiofiles
 from json import loads
 from json.decoder import JSONDecodeError
 import os
