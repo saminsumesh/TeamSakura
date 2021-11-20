@@ -13,7 +13,7 @@ from pyrogram.types import (
     Message
 )
 from info import (
-    COMMAND_HAND_LER
+    COMMAND_HAND_LER,
     paste_bin_store_s
 )
 
