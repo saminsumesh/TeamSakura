@@ -24,6 +24,13 @@ CODES:
 1. Auto Filter
 2. Group Managing  
 """
+    TTS_TXT = """<b>TEXT TO SPEACH</b>
+Simple Telegram Text-To-Speech Module.
+It can use the following as speech synthesis engines:
+
+Amazon's Polly engine
+Google's TTS engine by way of the gTTS library
+"""
     COVID_TXT = """<b><u>Covid 19 Information</u><b/>
         Corona information of a country    
     <b>Command:</b>
