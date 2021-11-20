@@ -6,14 +6,14 @@ from pyrogram import (
     Client,
     filters
 )
-from pyrobot import (
+from info import (
     COMMAND_HAND_LER
 )
-from pyrobot.helper_functions.cust_p_filters import sudo_filter
-from pyrobot.helper_functions.you_tube_dl_extractor import (
+from plugins.helper_functions.cust_p_filters import sudo_filter
+from plugins.helper_functions.you_tube_dl_extractor import (
     extract_youtube_dl_formats
 )
-from pyrobot.helper_functions.extract_link import extract_link
+from plugins.helper_functions.extract_link import extract_link
 
 TMP_DOWNLOAD_DIRECTORY = "./DOWNLOADS/"
 
