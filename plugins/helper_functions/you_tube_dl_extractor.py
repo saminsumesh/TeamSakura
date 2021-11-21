@@ -42,7 +42,7 @@ async def extract_youtube_dl_formats(url, user_working_dir):
         "-j",
         url
     ]
-    if "hotstar" in url:
+    if "youtube" in url:
         command_to_exec.append("--geo-bypass-country")
         command_to_exec.append("IN")
     LOGGER.info(command_to_exec)
