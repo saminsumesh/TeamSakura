@@ -38,7 +38,7 @@ async def down_load_media(client, message):
         assumed_url,
         user_working_dir
     )
-    if thumb_image is not None:
+    if thumb_image is not Error:
         await message.reply_photo(
             photo=thumb_image,
             quote=True,
