@@ -1,5 +1,6 @@
 from pyrogram import Client, filters
 import os 
+Import event
 from PIL import Image, ImageDraw, ImageFont
 from info import COMMAND_HAND_LER
 
