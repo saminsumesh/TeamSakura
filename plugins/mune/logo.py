@@ -1,14 +1,11 @@
 from pyrogram import Client, filters
-from info import ADMINS
 import os 
 from PIL import Image, ImageDraw, ImageFont
 from info import COMMAND_HAND_LER
 
-@Client.on_message(filters.command('logo'))
+@Client.on_message(["logo"], COMMAND_HAND_LER)
 async def lego(event):
  quew = event.pattern_match.group(1)
- if event.sender_id == ADMINS:
-     pass
  else:
      
     if not quew:
