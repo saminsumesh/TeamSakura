@@ -1,4 +1,4 @@
-from pyrogram import Client 
+from pyrogram import Client, filters
 from info import ADMINS
 import os 
 from PIL import Image, ImageDraw, ImageFont
