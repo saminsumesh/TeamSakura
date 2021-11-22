@@ -7,7 +7,7 @@ class script(object):
 """
     ABOUT_TXT = """
 ○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : 𝖲𝖺𝗄𝗎𝗋𝖺
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a herf="https://t.me/paulwalker_tg">𝖯𝖺𝗎𝗅𝖶𝖺𝗅𝗄𝖾𝗋</a>
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a herf='https://t.me/paulwalker_tg'>𝖯𝖺𝗎𝗅𝖶𝖺𝗅𝗄𝖾𝗋</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : 𝖧𝖾𝗋𝗈𝗄𝗎
