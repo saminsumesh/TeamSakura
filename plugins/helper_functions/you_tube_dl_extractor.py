@@ -6,6 +6,7 @@
 import asyncio
 import aiofiles
 import json
+from PIL import Image
 import os
 from pyrogram.types import (
     InlineKeyboardButton,
