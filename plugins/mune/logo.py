@@ -8,7 +8,7 @@ from info import (
 
 @Client.on_message(filters.command('logo', COMMAND_HAND_LER))
 async def lego(event):
- quew = event.pattern_match.group
+ quew = event.pattern_match.group()
  if event.sender_id == ADMINS:
      pass
  else:
@@ -20,7 +20,7 @@ async def lego(event):
        pass
  await event.reply('Creating your logo...wait!')
  try:
-    text = event.pattern_match.group
+    text = event.pattern_match.group()
     img = Image.open('./plugins/resources/blackbg (1).jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
