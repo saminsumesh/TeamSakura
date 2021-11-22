@@ -5,13 +5,14 @@ class script(object):
 /start - 𝖼𝗁𝖾𝖼𝗄 𝗐𝗁𝖾𝗍𝗁𝖾𝗋 𝗂𝗆 𝗈𝗇𝗅𝗂𝗇𝖾 
 /help - 𝗀𝖾𝗍 𝗍𝗁𝗂𝗌 𝗁𝖾𝗅𝗉 𝗆𝖾𝗌𝗌𝖺𝗀𝖾
 """
-    ABOUT_TXT = """✯ NAME: SAKURA
-✯ Creator: <a href='https://t.me/PaulWalker_TG'>𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛 🇱🇷</a>
-✯ Library: PYROGRAM
-✯ Language: PYTHON 𝟹
-✯ Database: <a href='https://MongoDB.com'>MONGO DB</a>
-✯ Server: <a href='https://qovery.com'>QOVERY</a>
-✯ Build Status: v1.7.5 [BETA]"""
+    ABOUT_TXT = """
+○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : 𝖲𝖺𝗄𝗎𝗋𝖺
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a herf="https://t.me/paulwalker_tg">𝖯𝖺𝗎𝗅𝖶𝖺𝗅𝗄𝖾𝗋</a>
+○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇𝟥 
+○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
+○ 𝖲𝖾𝗋𝗏𝖾𝗋 : 𝖧𝖾𝗋𝗈𝗄𝗎
+○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : 𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋 
+○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : 𝖵4.𝟩 [𝖠𝗅𝗉𝗁𝖺]
     SOURCE_TXT = """<b>NOTE:</b>
 - Sakura is a closed source project.   
 
