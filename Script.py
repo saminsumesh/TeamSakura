@@ -13,6 +13,7 @@ class script(object):
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : 𝖧𝖾𝗋𝗈𝗄𝗎
 ○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : 𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋 
 ○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : 𝖵4.𝟩 [𝖠𝗅𝗉𝗁𝖺]
+"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Sakura is a closed source project.   
 
