@@ -6,8 +6,8 @@ from info import COMMAND_HAND_LER
 @Client.on_message(["logo"], COMMAND_HAND_LER)
 async def lego(event):
  quew = event.pattern_match.group(1)
- else:
-     
+
+ try:
     if not quew:
        await event.reply('ᴘʀᴏᴠɪᴅᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴅʀᴀᴡ!')
        return
