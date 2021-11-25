@@ -421,8 +421,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴛᴛs', callback_data='tts'),
             ],[          
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),            
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='stick'),            
+            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -439,6 +439,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "stick":
+        buttons = [[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.STICK_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
