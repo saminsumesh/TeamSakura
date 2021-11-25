@@ -117,8 +117,8 @@ Made By @SakuraBotUpdates ❤️
     """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
--  𝙸𝚏 𝚈𝚘𝚞 𝙳𝚘𝚗'𝚝 𝚆𝚊𝚗𝚝 𝚃𝚠𝚘 𝙱𝚘𝚝 𝚄𝚜𝚎 𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛 𝙵𝚘𝚛 𝙵𝚒𝚕𝚝𝚎𝚛𝚒𝚗𝚐 𝚆𝚎𝚋𝚜𝚎𝚛𝚒𝚎𝚜
-
+- If you don't want to use two bot to filter webseries use manual filter 
+"""
 <b>NOTE:</b>
 1. 𝚂𝚊𝚔𝚞𝚛𝚊 𝚂𝚑𝚘𝚞𝚕𝚍 𝙽𝚎𝚎𝚍 𝙰𝚍𝚖𝚒𝚗 𝙿𝚛𝚒𝚟𝚒𝚕𝚊𝚐𝚎 𝚃𝚘 𝚆𝚘𝚛𝚔 
 2. 𝙾𝚗𝚕𝚢 𝙰𝚍𝚖𝚒𝚗𝚜 𝙲𝚊𝚗 𝚄𝚜𝚎 𝙵𝚒𝚕𝚝𝚎𝚛 
@@ -287,11 +287,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """★ ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
+★ ᴛᴏᴛᴀʟ ᴜsᴇʀ: <code>{}</code>
+★ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
+★ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>
 Total Members = <code>{}</code>
