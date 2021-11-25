@@ -164,3 +164,9 @@ async def imdb_callback(bot: Client, query: CallbackQuery):
         await query.message.edit(f"IMDb Data:\n\n🏷 Title:<a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year:<a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
     await query.answer()
         
+@Client.on_message(filters.command(["stickerid"]))
+async def stickerid(bot, message):   
+    if message.reply_to_message.sticker:
+       await message.reply(f"**ʜᴇʀᴇ ɪs ʏᴏᴜʀ sᴛɪᴄᴋᴇʀ ɪᴅ**  \n `{message.reply_to_message.sticker.file_id}` \n \n ** ᴜɴɪǫᴜᴇ ɪᴅ ɪs ** \n\n`{message.reply_to_message.sticker.file_unique_id}`", quote=True)
+    else: 
+       await message.reply("ɴɪᴄᴇ,ɪᴛs ɴᴏᴛ ᴀ sᴛɪᴄᴋᴇʀ")
