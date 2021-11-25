@@ -118,7 +118,7 @@ Made By @SakuraBotUpdates ❤️
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - If you don't want to use two bot to filter webseries use manual filter 
-"""
+
 <b>NOTE:</b>
 1. 𝚂𝚊𝚔𝚞𝚛𝚊 𝚂𝚑𝚘𝚞𝚕𝚍 𝙽𝚎𝚎𝚍 𝙰𝚍𝚖𝚒𝚗 𝙿𝚛𝚒𝚟𝚒𝚕𝚊𝚐𝚎 𝚃𝚘 𝚆𝚘𝚛𝚔 
 2. 𝙾𝚗𝚕𝚢 𝙰𝚍𝚖𝚒𝚗𝚜 𝙲𝚊𝚗 𝚄𝚜𝚎 𝙵𝚒𝚕𝚝𝚎𝚛 
