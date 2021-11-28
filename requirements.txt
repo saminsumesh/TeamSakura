@@ -9,7 +9,7 @@ imdbpy
 aiofiles
 telegraph
 pyrogram
-youtube_dlg
+youtube_dl
 youtube_search_python
 youtube_search
 ffmpeg-python
