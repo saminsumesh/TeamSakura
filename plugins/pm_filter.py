@@ -398,12 +398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-@Client.on_message(filters.command('help') & filters.private)
-async def help(client, message):
-    await message.reply_text(
-        text=Script.HELP_TXT,
-        disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup(
+elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ғɪʟᴛᴇʀ', callback_data='hud'),
             InlineKeyboardButton('ɪᴍʙᴅ', callback_data='imbd'),
