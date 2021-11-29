@@ -194,10 +194,6 @@ async def delete_all_index_confirm(bot, message):
     await message.answer()
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
-@Client.on_message(filters.command('help'))
-async def help(client, message):
-caption=script.HELP_TXT.format(message.from_user.mention)
-
 @Client.on_message(filters.command(['song']))
 def a(client, message):
     query = ''
