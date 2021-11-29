@@ -22,7 +22,7 @@ async def check_alive(_, message):
     await message.reply_text(ALIVE)
 
 
-@Client.on_message(filters.command("help", COMMAND_HAND_LER) & f_onw_fliter)
+@Client.on_message(filters.command("hi", COMMAND_HAND_LER) & f_onw_fliter)
 async def help_me(_, message):
     await message.reply_sticker(HELP)
 
