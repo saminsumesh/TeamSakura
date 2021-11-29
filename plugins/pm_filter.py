@@ -398,7 +398,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "help":
+@Client.on_message(filters.command('help') & filters.private)
+    async def help(client, message):
+    await message.reply_text(
+        text=Script.HELP_TXT,
         buttons = [[
             InlineKeyboardButton('ғɪʟᴛᴇʀ', callback_data='hud'),
             InlineKeyboardButton('ɪᴍʙᴅ', callback_data='imbd'),
