@@ -263,6 +263,7 @@ def a(client, message):
         os.remove(thumb_name)
     except Exception as e:
         print(e)
+
 @Client.on_message(filters.command("help"))
 async def help(client, message):
       buttons = [[
@@ -290,7 +291,7 @@ async def help(client, message):
             InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='stick'),            
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
         ]]
-        reply_markup = buttons
+        reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
             text=script.HELP_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
