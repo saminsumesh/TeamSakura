@@ -208,3 +208,18 @@ async def help(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+
+@Client.on_message(filters.command("about"))
+async def aboutme(client, message):
+        buttons= [[
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ ❤️', url='https://t.me/ippotharam34'),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.ABOUT_TXT.format(message.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
