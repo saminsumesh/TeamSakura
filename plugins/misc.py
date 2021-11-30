@@ -1,4 +1,5 @@
 import os
+from Script import script
 from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 from utils import extract_user, get_file_id, get_poster, last_online
@@ -200,7 +201,7 @@ async def help(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.HELP_TXT.format(query.from_user.mention),
+            text=script.HELP_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
         )
