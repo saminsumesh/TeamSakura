@@ -263,37 +263,3 @@ def a(client, message):
         os.remove(thumb_name)
     except Exception as e:
         print(e)
-
-@Client.on_message(filters.command("help"))
-async def help(client, message):
-      buttons = [[
-            InlineKeyboardButton('ғɪʟᴛᴇʀ', callback_data='hud'),
-            InlineKeyboardButton('ɪᴍʙᴅ', callback_data='imbd'),
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge')
-            ],[
-            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
-            InlineKeyboardButton('ғᴜɴ', callback_data='fun'),
-            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='mute')
-            ],[
-            InlineKeyboardButton('ʙᴀɴ', callback_data='ban'),
-            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
-            InlineKeyboardButton('ᴘɪɴ', callback_data='pin')
-            ],[
-            InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
-            InlineKeyboardButton('ᴊsᴏɴ', callback_data='json'),
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='ping')
-            ],[
-            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='covid'),
-            InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
-            InlineKeyboardButton('ᴛᴛs', callback_data='tts'),
-            ],[          
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='stick'),            
-            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
-        ]]
-    reply_markup=InlineKeyboardMarkup(buttons)
-    await message.reply_text(
-          text=script.HELP_TXT.format(message.from_user.mention),
-          reply_markup=reply_markup,
-          parse_mode='html'
-      )
