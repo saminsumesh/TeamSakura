@@ -200,7 +200,7 @@ async def help(client, message):
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
+        await reply.message.edit_text(
             text=script.HELP_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
