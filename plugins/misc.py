@@ -1,6 +1,7 @@
 import os
 from Script import script
 from info import PICS
+import random
 from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 from utils import extract_user, get_file_id, get_poster, last_online
