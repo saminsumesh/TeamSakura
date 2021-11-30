@@ -294,6 +294,5 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
             text=script.HELP_TXT.format(message.from_user.mention),
-            reply_markup=reply_markup,
             parse_mode='html'
         )
