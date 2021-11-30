@@ -290,7 +290,7 @@ async def help(client, message):
             InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='stick'),            
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
+        reply_markup = buttons
         await message.reply_text(
             text=script.HELP_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
