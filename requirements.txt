@@ -19,3 +19,4 @@ Pillow>=4.2.0
 bs4
 string-extract
 domain-extract
+hashtags_extract
