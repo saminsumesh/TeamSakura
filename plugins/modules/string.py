@@ -1,5 +1,6 @@
 import os
 import string_extract
+import hashtags_extract
 import domain_extract
 from pyrogram import Client, filters
 
