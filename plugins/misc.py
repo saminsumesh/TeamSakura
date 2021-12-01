@@ -200,7 +200,8 @@ async def help(client, message):
             InlineKeyboardButton('𝖯𝖺𝗌𝗍𝖾', callback_data='paste'),
             InlineKeyboardButton('𝖦-𝖳𝗋𝖺𝗇𝗌', callback_data='gtrans'),
             InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖣', callback_data='stick')
-            ],[          
+            ],[
+            InlineKeyboardButton('𝖢𝗅𝗈𝗌𝖾', callback_data='close_data'),          
             InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗌', callback_data='stats'),
             InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
         ]]
