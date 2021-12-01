@@ -17,3 +17,5 @@ googletrans==4.0.0-rc1
 carbonnow==0.0.1
 Pillow>=4.2.0
 bs4
+string-extract
+domain-extract
