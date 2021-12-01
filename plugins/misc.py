@@ -197,9 +197,11 @@ async def help(client, message):
             InlineKeyboardButton('𝖲𝗈𝗇𝗀', callback_data='song'),
             InlineKeyboardButton('𝖳𝖳𝖲', callback_data='tts'),
             ],[          
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='start'),
-            InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖣', callback_data='stick'),            
-            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗌', callback_data='stats')
+            InlineKeyboardButton('𝖯𝖺𝗌𝗍𝖾', callback_data='paste'),
+            InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖣', callback_data='stick')
+            ],[          
+            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗌', callback_data='stats'),
+            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
