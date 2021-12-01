@@ -177,29 +177,29 @@ async def stickerid(bot, message):
 @Client.on_message(filters.command("help"))
 async def help(client, message):
         buttons = [[
-            InlineKeyboardButton('ғɪʟᴛᴇʀ', callback_data='hud'),
-            InlineKeyboardButton('ɪᴍʙᴅ', callback_data='imbd'),
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge')
+            InlineKeyboardButton('𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='hud'),
+            InlineKeyboardButton('𝖨𝗆𝖽𝖻', callback_data='imbd'),
+            InlineKeyboardButton('𝖯𝗎𝗋𝗀𝖾', callback_data='purge')
             ],[
-            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
-            InlineKeyboardButton('ғᴜɴ', callback_data='fun'),
-            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='mute')
+            InlineKeyboardButton('𝖳𝗀𝗋𝖺𝗉𝗁', callback_data='tgraph'),
+            InlineKeyboardButton('𝖬𝖾𝗆𝖾', callback_data='fun'),
+            InlineKeyboardButton('𝖬𝗎𝗍𝖾', callback_data='mute')
             ],[
-            InlineKeyboardButton('ʙᴀɴ', callback_data='ban'),
-            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
-            InlineKeyboardButton('ᴘɪɴ', callback_data='pin')
+            InlineKeyboardButton('𝖡𝖺𝗇', callback_data='ban'),
+            InlineKeyboardButton('𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇', callback_data='coct'),
+            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin')
             ],[
-            InlineKeyboardButton('ɪɴғᴏ', callback_data='info'),
-            InlineKeyboardButton('ᴊsᴏɴ', callback_data='json'),
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='ping')
+            InlineKeyboardButton('𝖨𝗇𝖿𝗈', callback_data='info'),
+            InlineKeyboardButton('𝖩𝗌𝗈𝗇', callback_data='json'),
+            InlineKeyboardButton('𝖯𝗂𝗇𝗀', callback_data='ping')
             ],[
-            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='covid'),
-            InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
-            InlineKeyboardButton('ᴛᴛs', callback_data='tts'),
+            InlineKeyboardButton('𝖢𝗈𝗏𝗂𝖽', callback_data='covid'),
+            InlineKeyboardButton('𝖲𝗈𝗇𝗀', callback_data='song'),
+            InlineKeyboardButton('𝖳𝖳𝖲', callback_data='tts'),
             ],[          
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='stick'),            
-            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
+            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='start'),
+            InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖣', callback_data='stick'),            
+            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗌', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -212,9 +212,9 @@ async def help(client, message):
 @Client.on_message(filters.command("about"))
 async def aboutme(client, message):
         buttons= [[
-            InlineKeyboardButton('sᴏᴜʀᴄᴇ ❤️', url='https://t.me/ippotharam34'),
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('𝖲𝗈𝗎𝗋𝖼𝖾', url='https://t.me/ippotharam34'),
+            InlineKeyboardButton('𝖬𝗈𝗏𝗂𝖾𝗌', url='https://t.me/fbm_movies),
+            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
