@@ -1,17 +1,17 @@
-#Sakura is an powerfull and automatic Autofilter bot that can be used in your groups 
+# Sakura is an powerfull and automatic Autofilter bot that can be used in your groups 
 `Am not recommending you to use the bot in normal groups`
 
-#Wait for v8.0 Build with customised Autofilter 🥺
+# Wait for v8.0 Build with customised Autofilter 🥺
 
-#🤧 Fork This Repo For Now
+# 🤧 Fork This Repo For Now
 `Fork This Repo For Now There Are Some Bugs Needed To Be Fixed`
 
-#Credits
-`Base Repo Used In The Build - <a href="https://github.com/TeamEvaMaria/Evamaria>Eva Maria</a>
+# Credits
+Base Repo Used In The Build - <a href="https://github.com/TeamEvaMaria/Evamaria>Eva Maria</a>
 `© PaulWalker_TG`
-`Powered By <a href="https://t.me/xd_botz>XD Botz</a>`
+Powered By <a href="https://t.me/xd_botz>XD Botz</a>
 
-##Features 
+## Features 
 • `IMDB`
 • `Translation`
 • `Purge`
@@ -28,5 +28,5 @@
 • `Song` - Download Songs | Bugged For Now Will Be Fixed Through Patches
 • `Sticker ID`
 
-#Behind the scene 
+# Behind the scene 
 `PaulWalker_TG`
