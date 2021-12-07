@@ -4,18 +4,32 @@
 # Wait for v8.0 Build with customised Autofilter 🥺
 
 # 🤧 Fork This Repo For Now
-`Fork This Repo For Now There Are Some Bugs Needed To Be Fixed`
+* `Fork This Repo For Now There Are Some Bugs Needed To Be Fixed`
 
 # Credits
-`Base Repo Used In The Build - Eva Maria`
-`© PaulWalker_TG`
-`Powered By XD_Botz`
+* `Base Repo Used In The Build - Eva Maria`
+* `© PaulWalker_TG`
+* `Powered By XD_Botz`
 
-## Features 
 ## Features
 
 - [x] Auto Filter
 - [x] Manual Filter
+- [x] Ban
+- [x] Mute
+- [x] Telegraph
+- [x] TTS | Text To Speech
+- [x] Translation 
+- [x] Pin 
+- [x] Meme
+- [x] Google Translate
+- [x] Song
+- [x] Sticker ID
+- [x] Covid
+- [x] Info
+- [x] Ping
+- [x] Json
+- [x] Paste Bin
 - [x] IMDB
 - [x] Admin Commands
 - [x] Broadcast
@@ -23,8 +37,7 @@
 - [x] IMDB search
 - [x] Inline Search
 - [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- [x] Purge
 
 
 # Behind the scene 
