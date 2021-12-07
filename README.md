@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="sakura/logo.py" alt="Eva Maria Logo">
+  <img src="sakura/logo.jpg" alt="Sakura Logo">
 </p>
 <h1 align="center">
   <b>Sakura AutoFilter</b>
