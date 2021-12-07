@@ -7,9 +7,9 @@
 `Fork This Repo For Now There Are Some Bugs Needed To Be Fixed`
 
 # Credits
-Base Repo Used In The Build - <a href="https://github.com/TeamEvaMaria/Evamaria>Eva Maria</a>
+`Base Repo Used In The Build - Eva Maria`
 `© PaulWalker_TG`
-Powered By <a href="https://t.me/xd_botz>XD Botz</a>
+`Powered By XD_Botz`
 
 ## Features 
 • `IMDB`
