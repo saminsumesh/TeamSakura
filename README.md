@@ -12,21 +12,20 @@
 `Powered By XD_Botz`
 
 ## Features 
-`• IMDB`
-`• Translation`
-`• Purge`
-`• Meme`
-`• Ban`
-`• Filter`
-`• Json`
-`• Info`
-`• Ping`
-`• Covid`
-`• TTS`
-`• Paste Bin`
-`• Google Translate`
-`• Song` - Download Songs | Bugged For Now Will Be Fixed Through Patches
-`• Sticker ID`
+## Features
+
+- [x] Auto Filter
+- [x] Manual Filter
+- [x] IMDB
+- [x] Admin Commands
+- [x] Broadcast
+- [x] Index
+- [x] IMDB search
+- [x] Inline Search
+- [x] Random pics
+- [x] ids and User info 
+- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+
 
 # Behind the scene 
 `PaulWalker_TG`
