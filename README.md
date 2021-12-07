@@ -12,21 +12,21 @@
 `Powered By XD_Botz`
 
 ## Features 
-• `IMDB`
-• `Translation`
-• `Purge`
-• `Meme`
-• `Ban`
-• `Filter`
-• `Json`
-• `Info`
-• `Ping`
-• `Covid`
-• `TTS`
-• `Paste Bin`
-• `Google Translate`
-• `Song` - Download Songs | Bugged For Now Will Be Fixed Through Patches
-• `Sticker ID`
+`• IMDB`
+`• Translation`
+`• Purge`
+`• Meme`
+`• Ban`
+`• Filter`
+`• Json`
+`• Info`
+`• Ping`
+`• Covid`
+`• TTS`
+`• Paste Bin`
+`• Google Translate`
+`• Song` - Download Songs | Bugged For Now Will Be Fixed Through Patches
+`• Sticker ID`
 
 # Behind the scene 
 `PaulWalker_TG`
