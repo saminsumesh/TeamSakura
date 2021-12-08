@@ -7,7 +7,7 @@
 
 ## This Bot May Look Like [Mwk_AutofilterBot](https://t.me/Mwk_Autofilterbot) And Its Because I Like Its UI, That's All</b>
 
-# [Sakura](https://t.me/SakuraFilterBot) is an powerfull and automatic Autofilter bot that can be used in your groups 
+# [Sakura](https://t.me/SakuraFilterBot) is an powerfull and Autofilter bot that can be used in your groups 
 `Am not recommending you to use the bot in normal groups`
 
 # Wait for v8.0 Build with customised Autofilter 🥺
@@ -52,7 +52,7 @@
 `PaulWalker_TG`
 
 ## Deploy
-https://heroku.com/deploy?template=https://github.com/saminsumesh/teamsakura"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+https://heroku.com/deploy?template=https://github.com/saminsumesh/teamsakura"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
