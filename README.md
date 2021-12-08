@@ -52,16 +52,7 @@
 `PaulWalker_TG`
 
 ## Deploy
-You can deploy this bot anywhere.
-<details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/Saminsumesh/TeamSakura>
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
-</details>
-
+https://heroku.com/deploy?template=https://github.com/saminsumesh/teamsakura)
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
