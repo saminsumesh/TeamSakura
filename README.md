@@ -1,1 +1,3 @@
-# Poda Myre 👌
+# Sorry 😐
+
+## Repo Cost $1000.
