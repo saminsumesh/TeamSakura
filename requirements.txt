@@ -9,8 +9,6 @@ imdbpy
 aiofiles
 telegraph
 pyrogram
-youtube_search_python
-youtube_search
 ffmpeg-python
 googletrans==4.0.0-rc1
 carbonnow==0.0.1
@@ -33,10 +31,8 @@ aiofiles
 requests
 pyshorteners
 bs4
-youtube-dl
-yt-dlp
 wget
 python-arq
 ffmpeg-python
 requests
-ytthumb
+
