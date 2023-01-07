@@ -1,3 +1,7 @@
+<h1> This Repo is UnMainTained For Last 1 year so, There is no gaurrenty that you would get the latest features and Stability </h2>
+
+<H2> Go with Go an autofliter bot works in Golang will be available for you<h2>
+
 <p align="center">
   <img src="sakura/logo.jpg" alt="Sakura Logo">
 </p>
